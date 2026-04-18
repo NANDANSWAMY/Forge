@@ -1,0 +1,31 @@
+{
+  "name": "8f516359_54c84aa7_SampleApp",
+  "version": "1.0.0",
+  "manufacturer": "unknown",
+  "installer": {
+    "filename": "8f516359_54c84aa7_SampleApp_1.0.0_x64.msi",
+    "type": "msi",
+    "hash": "651744236b144ca54f980331ba3722f0d4074fbf55df516f4f6c9b0c10eef935",
+    "size": 151
+  },
+  "installation": {
+    "command": "msiexec /i \"8f516359_54c84aa7_SampleApp_1.0.0_x64.msi\" /qn /quiet /passive /norestart ALLUSERS=1",
+    "switches": [
+      "/qn",
+      "/quiet",
+      "/passive",
+      "/norestart",
+      "ALLUSERS=1"
+    ],
+    "uninstall_command": "msiexec /x \"8f516359_54c84aa7_SampleApp_1.0.0_x64.msi\" /qn"
+  },
+  "analysis": {
+    "confidence": 0.4,
+    "reasoning": "Basic analysis based on installer type. AI analysis unavailable.",
+    "known_issues": [
+      "AI analysis failed - manual review recommended"
+    ]
+  },
+  "generated_by": "Forge POC",
+  "generated_at": "2026-04-18T04:25:15.325555"
+}

@@ -1,0 +1,5 @@
+DUMMY MSI FILE FOR TESTING
+Product: SampleApp
+Version: 1.0.0
+Manufacturer: Test Corp
+This is not a real MSI - just a test file for the Forge POC demo.

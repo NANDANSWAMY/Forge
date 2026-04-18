@@ -1,0 +1,33 @@
+{
+  "name": "322cdaff_NotepadPlus",
+  "version": "8.5",
+  "manufacturer": "unknown",
+  "installer": {
+    "filename": "322cdaff_NotepadPlus_8.5_Setup.exe",
+    "type": "exe",
+    "hash": "f7da17701eecf47688e67ef0358445b3d6ab1e1e34eb9fe249fe5cc8b53a5ffc",
+    "size": 182
+  },
+  "installation": {
+    "command": "\"322cdaff_NotepadPlus_8.5_Setup.exe\" /S /s",
+    "switches": [
+      "/S",
+      "/s",
+      "/silent",
+      "/quiet",
+      "-silent",
+      "-quiet",
+      "/VERYSILENT"
+    ],
+    "uninstall_command": "Unknown"
+  },
+  "analysis": {
+    "confidence": 0.4,
+    "reasoning": "Basic analysis based on installer type. AI analysis unavailable.",
+    "known_issues": [
+      "AI analysis failed - manual review recommended"
+    ]
+  },
+  "generated_by": "Forge POC",
+  "generated_at": "2026-04-18T04:29:34.960266"
+}
