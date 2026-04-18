@@ -1,31 +1,13 @@
-# API
-fastapi==0.109.2
-uvicorn[standard]==0.27.1
-python-multipart==0.0.9
-
-# AI / LLM
-openai==1.12.0
-tiktoken==0.6.0
-
-# Vector DB / RAG
-chromadb==0.4.22
-sentence-transformers==2.3.1
-
-# UI
+# Streamlit UI (required)
 streamlit==1.31.1
-streamlit-extras==0.3.6
 
-# Data
-pydantic==2.6.1
-pydantic-settings==2.1.0
-python-dotenv==1.0.1
+# HTTP requests (for API status check)
+requests>=2.28.0
 
-# Utilities
-aiofiles==23.2.1
-httpx==0.26.0
-pefile==2023.2.7
-# msitools not on PyPI - use system msiinfo if needed
-
-# Dev
-pytest>=7.0.0,<8
-pytest-asyncio>=0.21.0
+# Only needed if you enable real backend:
+# fastapi==0.109.2
+# uvicorn[standard]==0.27.1
+# openai==1.12.0
+# tiktoken==0.6.0
+# chromadb==0.4.22
+# sentence-transformers==2.3.1
